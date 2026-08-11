@@ -803,6 +803,37 @@ details.trouble .trouble-body dd{ margin:4px 0 0; }
 }
 /* Ad slots stay collapsed (no visible box) until an ad network is actually installed */
 
+.ad-top-banner{
+  max-width:1180px;
+  margin:16px auto 0;
+  padding:0 20px;
+  text-align:center;
+  overflow:hidden;
+}
+.ad-mid{
+  max-width:1180px;
+  margin:30px auto;
+  padding:0 20px;
+  text-align:center;
+  overflow:hidden;
+}
+.ad-side-row{
+  max-width:1180px;
+  margin:30px auto;
+  padding:0 20px;
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+  overflow:hidden;
+}
+.ad-footer-link a{
+  color:inherit;
+  opacity:.7;
+  text-decoration:underline;
+}
+.ad-footer-link a:hover{ opacity:1; }
+
 /* ---------- 404 ---------- */
 .error-page{
   max-width:560px;
